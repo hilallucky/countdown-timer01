@@ -84,7 +84,7 @@
     <!-- Title -->
     <section>
       <h2 class="panel-h">Title text</h2>
-      <label class="field"><span>Text</span><input id="t-text" type="text" value="Title/Session" class="txt"></label>
+      <label class="field"><span>Text</span><input id="t-text" type="text" value="Title/Session" class="txt flex col-span-3 w-full"></label>
       <div class="grid grid-cols-2 gap-2 mt-2">
         <label class="field"><span>Font</span>
           <select id="t-font" class="sel">
