@@ -27,7 +27,7 @@
 
   <!-- Timer content -->
   <div id="content-grid" class="absolute inset-0 grid grid-rows-3 grid-cols-3 p-6 md:p-12">
-    <div id="title-slot" class="flex"><div id="title-text" class="timer-title" contenteditable="false">Title/Session</div></div>
+    <div id="title-slot" class="flex col-span-3"><div id="title-text" class="timer-title" contenteditable="false">Title/Session</div></div>
     <div id="time-slot" class="flex col-span-3 row-span-1" style="grid-column:1/4; grid-row:2/3;">
       <div id="time-wrap" class="w-full flex">
         <div id="time-text" class="timer-time">00:00</div>
@@ -84,7 +84,7 @@
     <!-- Title -->
     <section>
       <h2 class="panel-h">Title text</h2>
-      <label class="field"><span>Text</span><input id="t-text" type="text" value="Title/Session" class="txt flex col-span-3 w-full"></label>
+      <label class="field"><span>Text</span><textarea id="t-text" rows="3" class="txt w-full">Title/Session</textarea></label>
       <div class="grid grid-cols-2 gap-2 mt-2">
         <label class="field"><span>Font</span>
           <select id="t-font" class="sel">
